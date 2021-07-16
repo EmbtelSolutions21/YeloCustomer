@@ -1,0 +1,49 @@
+
+<div class="ps-main_sidebar">
+  <div class="ps-sidebar">
+      <div class="sidebar-top mb-5 border-1 bg-white">
+        <div class="row">
+          <div class="profile col-4">
+            <div class="p-3">
+              <img class="round" src="assets/img/dashboard/1.jpg">
+            </div>
+          </div>
+          <div class="details col-8">
+            <div class="p-3">
+              <div class="name">
+                <h4> Hello,</h4>
+              </div>
+                <h4>Yelo Bags Customer</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar-middle bg-white">
+        <div class="links-group items">
+          <div class="links">
+            <div class="link" [ngClass]="currentpath == 'dashboard' ? 'active' : ''">
+            <a href="/profile#dashboard"  rel="noopener noreferrer">Dashboard <i class="bi bi-speedometer2"></i></a>
+          </div>
+          <div class="link" [ngClass]="currentpath == 'orders' ? 'active' : ''">
+            <a href="/profile#orders" rel="noopener noreferrer">Orders <i class="bi bi-cart"></i></a>
+          </div>
+          <div class="link" [ngClass]="currentpath == 'addresses' ? 'active' : ''">
+            <a href="/profile#addresses" rel="noopener noreferrer">Address <i class="bi bi-geo-alt"></i></a>
+          </div>
+          <div class="link" [ngClass]="currentpath == 'payment' ? 'active' : ''">
+            <a href="/profile#payment" rel="noopener noreferrer">Payment Methods <i class="bi bi-credit-card-2-back"></i></a>
+            </div>
+            <div class="link" [ngClass]="currentpath == 'account' ? 'active' : ''">
+              <a href="/profile#account" rel="noopener noreferrer">Account Details <i class="bi bi-person-fill"></i></a>
+            </div>
+            <div class="link">
+            <a href="http://" rel="noopener noreferrer">Logout <i class="bi bi-box-arrow-left"></i></a>
+            </div>
+          </div>
+        </div>
+     </div>
+     <div class="sidebar-bottom">
+      <div class="profile"></div>
+   </div>
+  </div>
+</div>

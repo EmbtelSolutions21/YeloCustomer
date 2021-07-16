@@ -1,0 +1,38 @@
+.store_single{
+    padding: 25px 0;
+    padding-top: 0px;
+    background-color: #f7f7f7;
+}
+.side_sticky{
+    position: sticky;
+    top: 100px;
+}
+.store__detail{
+    background-color: #fff;
+}
+.store__header{
+    border: 1px solid #d8d4d4;
+}
+
+.ps-home--full-width .ps-block--products{
+    height: 400px;
+}
+.ps-breadcrumb{
+    background: #fff;
+    border-bottom: 1px solid #d8d4d4;
+}
+.ps-home--full-width .ps-home--block{
+    margin-top: 0px;
+}
+.mt-70{
+    margin-top: 70px;
+}
+.pt-70{
+    padding-top: 70px;
+}
+
+.store__header{
+    position: sticky;
+    top: 100px;
+    z-index: 2;
+}

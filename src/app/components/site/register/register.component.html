@@ -1,0 +1,67 @@
+<main class="no-main">
+  <div class="ps-breadcrumb">
+      <div class="container-fluid">
+          <ul class="ps-breadcrumb__list">
+              <li class="active"><a href="home">Home</a></li>
+              <li><a class="p-2" href="javascript:void(0);">Register</a></li>
+          </ul>
+      </div>
+  </div>
+  <section class="section--login">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 col-lg-12">
+                  <div class="login__box">
+                      <div class="login__header">
+                          <h3 class="login__login">Register</h3>
+
+                      </div>
+                      <div class="login__content">
+                          <div class="login__label">Create your account.</div>
+
+                          <!-- <div class="alert alert-danger" [hidden]="!error">
+                            {{error}}
+                          </div> -->
+                        <form #registerForm=ngForm (ngSubmit)="onSubmit()">
+                          <div class="form-row">
+                              <div class="col-12 form-group--block">
+                                  <label>Name: <span>*</span></label>
+                                  <input class="form-control"  name="name" type="text" [(ngModel)]="form.name" required>
+
+                              </div>
+                              <!-- <div class="text-danger" [hidden]="!error.name">
+                                {{error.name}}
+                              </div> -->
+                              <div class="col-12 form-group--block">
+                                  <label>email: <span>*</span></label>
+                                  <input class="form-control" name="email" type="email" [(ngModel)]="form.email"  required>
+                                  <!-- <div class="alert alert-danger" [hidden]="!error.email">
+                                    {{error.email}}
+                                  </div> -->
+                              </div>
+                              <!-- <div class="text-danger" [hidden]="!error.email">
+                                {{error.email}}
+                              </div> -->
+                              <div class="col-12 form-group--block">
+                                  <label>Password: <span>*</span></label>
+                                  <input class="form-control"  name="password" type="password"  [(ngModel)]="form.password" required>
+                              </div>
+                              <!-- <div class="text-danger" [hidden]="!error.password">
+                                {{error.password}}
+                              </div> -->
+                              <div class="col-12 form-group--block">
+                                  <label>Retype password: <span>*</span></label>
+                                  <input class="form-control" type="text" name="password_confirmation" [(ngModel)]="form.password_confirmation"  required>
+                              </div>
+                              <p>By creating an account, you agree to yolobags's <span class="text-success">Conditions of Use </span>and <span class="text-success">Privacy Notice.</span></p>
+                              <button class="btn ps-button">Register</button>
+                          </div>
+                      </form>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </section>
+</main>

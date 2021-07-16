@@ -1,0 +1,18 @@
+.recent_top_stores{
+    /* padding: 20px; */
+    border: 1px solid #d8d4d4;
+    margin-top: 30px;
+    border-radius: 5px;
+    background: #f5f5f5;
+}
+.recent_top_stores .top_stores_list{
+    padding: 20px;
+}
+.recent_top_stores .top_stores_title{
+    padding: 20px;
+    border-bottom: 1px solid #d8d4d4;
+    background: #fff;
+}
+.recent_top_stores .top_stores_title h4{
+    margin-bottom: 0px;
+}

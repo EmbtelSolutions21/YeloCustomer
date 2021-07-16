@@ -1,0 +1,36 @@
+<main class="no-main">
+  <div class="ps-breadcrumb">
+    <div class="container-fluid">
+        <ul class="ps-breadcrumb__list">
+            <li class="active"><a href="home">Home</a></li>
+            <li><a class="p-2" href="javascript:void(0);">My Account</a></li>
+        </ul>
+    </div>
+</div>
+  <div class="empty-space-40"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <app-sidemenu></app-sidemenu>
+      </div>
+      <div class="col-md-8 bg-white border-1">
+          <div *ngIf="currentpath == 'dashboard'">
+            <app-welcome></app-welcome>
+          </div>
+          <div *ngIf="currentpath == 'orders'">
+            <app-orders></app-orders>
+          </div>
+          <div *ngIf="currentpath == 'addresses'">
+            <app-addresses></app-addresses>
+          </div>
+          <div *ngIf="currentpath == 'payment'">
+            <app-payment></app-payment>
+          </div>
+          <div *ngIf="currentpath == 'account'">
+            <app-account></app-account>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="empty-space-40"></div>
+</main>

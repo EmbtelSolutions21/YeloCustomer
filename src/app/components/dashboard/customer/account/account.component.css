@@ -1,0 +1,50 @@
+.tab_head{
+    padding: 20px 0px;
+    border-bottom: 1px solid #bbbbbb;
+    margin-bottom: 20px;
+}
+.tab_head .tab_title{
+    margin-bottom: 0px;
+}
+.tab_head .tab_desc{
+    margin-bottom: 0px;
+}
+.tab_head .tab_title i{
+    color: #26901B;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.single_dashlink{
+    padding: 30px 20px;
+    text-align: center;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    transition: transform .3s;
+    background: #fff;
+}
+.single_dashlink:hover{
+    transform: scale(1.1);
+}
+.single_dashlink i{
+    font-size: 35px;
+    color: #26901b;
+    transition: transform .2s;
+}
+.single_dashlink h3{
+    margin-top: 10px;
+}
+
+.reset_btn{
+    margin-top: 20px;
+}
+
+.single_form label{
+    color: #232323;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.color-red{
+    color: red;
+}

@@ -1,0 +1,20 @@
+table th{
+    color: #232323;
+}
+
+.tab_head{
+    padding: 20px 0px;
+    border-bottom: 1px solid #bbbbbb;
+    margin-bottom: 20px;
+}
+.tab_head .tab_title{
+    margin-bottom: 0px;
+}
+.tab_head .tab_desc{
+    margin-bottom: 0px;
+}
+.tab_head .tab_title i{
+    color: #26901B;
+    font-size: 25px;
+    margin-right: 5px;
+}
